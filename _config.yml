@@ -1,0 +1,30 @@
+title: "李融彬的博客"
+description: "爬虫、逆向、Python、技术记录"
+baseurl: ""
+url: "https://slli123.github.io"
+
+theme: minimal-mistakes-jekyll
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-archives
+
+paginate: 6
+paginate_path: "/page:num/"
+
+markdown: kramdown
+highlighter: rouge
+
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      toc: true
+      toc_sticky: true
+      comments: true
