@@ -1,0 +1,35 @@
+title: "Hi，我是李融彬"
+description: > # this means to ignore newlines until "baseurl:"
+ 记录我的爬虫过程与见解，也希望把我的努力过程记录下来
+permalink: ':title/'
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://slli123.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+site-twitter: #if your site has a twitter account, enter it here
+
+# Author Settings
+author: 李融彬 # add your name
+author-img: david-freeman.jpg # add your photo
+about-author: 我只是一个平凡的即将毕业的大学生 # add description
+social-twitter: # add your Twitter handle
+social-facebook: # add your Facebook handle
+social-github: slli123 # add your Github handle
+social-linkedin: # add your Linkedin handle
+social-email: # add your Email address
+
+# Disqus
+discus-identifier: mr-brown # add your discus identifier
+
+# Tracker
+analytics: # Google Analytics
+
+# Build Settings
+markdown: kramdown
+plugins:
+  - jekyll-sitemap
+  - jekyll-paginate
+  - jemoji
+
+paginate: 8
+paginate_path: "/page/:num"
+
+exclude: ["node_modules", "gulpfile.js", "package.json", "yarn.lock"]
