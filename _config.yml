@@ -8,16 +8,23 @@ site-twitter: #if your site has a twitter account, enter it here
 
 # Author Settings
 author: 李融彬 # add your name
-author-img: david-freeman.jpg # add your photo
+author-img: david-freeman.jpg
+ # add your photo
 about-author: 我只是一个平凡的即将毕业的大学生 # add description
-social-twitter: None# add your Twitter handle
-social-facebook: None# add your Facebook handle
-social-github: slli123 # add your Github handle
-social-linkedin: None# add your Linkedin handle
-social-email:slliabc6@gmail.com# add your Email address
+social-twitter: None
+ # add your Twitter handle
+social-facebook: None
+# add your Facebook handle
+social-github: slli123
+ # add your Github handle
+social-linkedin: None
+# add your Linkedin handle
+social-email:slliabc6@gmail.com
+# add your Email address
 
 # Disqus
-discus-identifier: mr-brown # add your discus identifier
+discus-identifier: mr-brown 
+# add your discus identifier
 
 # Tracker
 analytics: # Google Analytics
