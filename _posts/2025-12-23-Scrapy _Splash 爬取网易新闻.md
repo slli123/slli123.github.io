@@ -1,23 +1,16 @@
-# Scrapy + Splash 爬取网易新闻实战（国内镜像适配版）
-
 ---
-
 layout: post
-
 title: "爬虫日记、Scrapy+Splash爬取网易新闻--＞国内镜像适配与全流程排错"
-
 date: 2025-12-24
-
 description: "本文介绍使用Scrapy+Splash爬取网易新闻的过程，重点解决国内网络环境下Splash官方镜像无法拉取的问题，通过国内镜像完成环境搭建。全程覆盖环境部署、爬虫开发、中间件配置、响应解析等核心环节，解决了请求拦截、版本兼容、动态加载等6类实战问题，技术要点包括：Splash国内镜像适配、Scrapy中间件配置、Lua脚本容错设计、XPath模糊匹配等，展示了动态页面爬取与实战排错的完整解决方案。"
-
 tags: "[python, scrapy, splash, 动态爬虫, 国内镜像适配]"
-
 ---
 
 ## 项目前言
 
 项目由我搭配ai使用完成。由于网络环境限制，无法直接拉取官方 `scrapinghub/splash` 镜像，因此通过 **国内镜像源完成 Splash 环境搭建**，全程自主解决镜像查找、容器启动、版本兼容问题，完整覆盖「环境搭建 → 爬虫开发 → 问题排查 → 数据爬取」全流程，体现实战落地与问题解决能力。
-
+项目地址：https://github.com/slli123/spiders/tree/main/Scrapy%20_splash%20%E7%88%AC%E5%8F%96%E7%BD%91%E6%98%93%E6%96%B0%E9%97%BB
+<!more>
 **技术栈**：Scrapy 2 + Splash（国内镜像）+ Docker + XPath
 
 ## 一、 环境搭建（国内镜像适配）
